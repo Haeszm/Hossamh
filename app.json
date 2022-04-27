@@ -1,0 +1,87 @@
+{
+    "name": "سيلفا بوتات ميوزك",
+    "description": "⿻↬──────@SO_SELVA للمعرفة تحديثات تابعوا قناتنا معرف قناتنا",
+    "logo": "https://telegra.ph/file/10bfc5e7d6ab441832a65.jpg",
+    "keywords": [
+        "pytgcalls",
+        "telegram bot",
+        "video stream",
+        "pyrogram"
+    ],
+    "website": "https://t.me/SO_SELVA",
+    "repository": "https://github.com/Mrlido99/Selvamic",
+    "success_url": "https://t.me/J0KER7x",
+    "env": {
+        "API_ID": {
+            "description": "قم بوضع الايبي ايدي هنا",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "قم بوضع الايبي هاش",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "قم بوضع توكن البوت الخاص بك هنا",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "قم بوضع يوزر بوتك بدون علامة @",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "قم بوضع يوزر بوتك بدون علامة @",
+            "required": true
+        },
+        "ASSISTANT_NAME": {
+            "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
+            "required": true
+        },
+        "SESSION_NAME": {
+            "description": "قم بوضع كــود بـايـروجـرام هنا",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "قم بوضع ايدي المطور الاساسي",
+            "required": true
+        },
+        "GROUP_SUPPORT": {
+            "description": "ضع هنا يوزر جروبك بدون علامة @",
+            "required": true,
+            "value": "br_selva"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "ضع هنا يوزر قناتك بدون علامة @",
+            "required": true,
+            "value": "SO_SELVA"
+        },
+        "OWNER_NAME": {
+            "description": "ضع هنا يوزر المطور بدون علامة @",
+            "required": true,
+            "value": "tt_t_4"
+        },
+        "ALIVE_NAME": {
+            "description": "اتركها كما هي",
+            "required": true,
+            "value": " 𝐒𝐄𝐋𝐕𝐀 𝐌𝐔𝐒𝐈𝐂 🎶 "
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
