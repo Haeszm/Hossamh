@@ -73,7 +73,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton("⌯ H𝗢𝗦𝗦𝗔𝗠⌯", url=f"https://t.me/H_OS_S_AM"),
-             
+                ],
                 [InlineKeyboardButton("⌯❓ طريقة التفعيل ⌯", callback_data="cbhowtouse")],
                 [InlineKeyboardButton("⌯  الاوامر بالعربي ⌯", callback_data="cbvamp")],                 
                 [
