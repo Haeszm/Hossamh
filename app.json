@@ -1,6 +1,6 @@
 {
-    "name": "سيلفا بوتات ميوزك",
-    "description": "⿻↬──────@SO_SELVA للمعرفة تحديثات تابعوا قناتنا معرف قناتنا",
+    "name": "حسام بوتات ميوزك",
+    "description": "⿻↬──────@x3j_xj3 للمعرفة تحديثات تابعوا قناتنا معرف قناتنا",
     "logo": "https://telegra.ph/file/10bfc5e7d6ab441832a65.jpg",
     "keywords": [
         "pytgcalls",
@@ -8,9 +8,9 @@
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/SO_SELVA",
+    "website": "https://t.me/x3j_xj3",
     "repository": "https://github.com/Hossamhos/Hossamh",
-    "success_url": "https://t.me/J0KER7x",
+    "success_url": "https://t.me/H_OS_S_AM",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
@@ -47,22 +47,22 @@
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": "br_selva"
+            "value": "Egyption_group"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "SO_SELVA"
+            "value": "H_OS_S_AM"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": "tt_t_4"
+            "value": "hoss_am12bot"
         },
         "ALIVE_NAME": {
             "description": "اتركها كما هي",
             "required": true,
-            "value": " 𝐒𝐄𝐋𝐕𝐀 𝐌𝐔𝐒𝐈𝐂 🎶 "
+            "value": " H𝗢𝗦𝗦𝗔𝗠 𝑀𝑈𝑆𝐼𝐶࿃ 🎶 "
         }
     },
     "addons": [],
