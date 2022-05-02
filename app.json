@@ -1,7 +1,7 @@
 {
     "name": "حسام بوتات ميوزك",
-    "description": "⿻↬──────@x3j_xj3 للمعرفة تحديثات تابعوا قناتنا معرف قناتنا",
-    "logo": "https://telegra.ph/file/10bfc5e7d6ab441832a65.jpg",
+    "description": "⿻↬────── @x3j_xj3 للمعرفة تحديثات تابعوا قناتنا معرف قناتنا",
+    "logo": "https://t.me/x3j_xj3/47",
     "keywords": [
         "pytgcalls",
         "telegram bot",
@@ -52,12 +52,12 @@
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "H_OS_S_AM"
+            "value": "x3j_xj3"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": "hoss_am12bot"
+            "value": "H_OS_S_AM"
         },
         "ALIVE_NAME": {
             "description": "اتركها كما هي",
