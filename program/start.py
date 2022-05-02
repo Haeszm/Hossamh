@@ -54,7 +54,8 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **مرحبا عزيزي ↤ {message.from_user.mention()} !**\n
-🤖 **[𝐒𝐄𝐋𝐕𝐀 𝐌𝐔𝐒𝐈𝐂 🎶](https://t.me/SO_SELVA) **
+🤖 **[H𝗢𝗦𝗦𝗔𝗠 𝑀𝑈𝑆𝐼𝐶࿃
+ 🎶](https://t.me/x3j_xj3) **
 **⌯ انا بوت  استطيع تشغيل الموسيقي والفيديو في محادثتك الصوتية**
 
 ⌯ تعلم طريقة تشغيلي واوامر التحكم بي عن طريق  » 📚 اوامر التشغيل !
@@ -67,15 +68,13 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⌯ 𝐒𝐄𝐋𝐕𝐀 𝐌𝐔𝐒𝐈𝐂 🎶 ⌯",
-                        url=f"https://t.me/SO_SELVA",
+                  "⌯ H𝗢𝗦𝗦𝗔𝗠 𝑀𝑈𝑆𝐼𝐶࿃ 🎶 ⌯",
+                        url=f"https://t.me/x3j_xj3",
                     )
                 ],
                 [
-                    InlineKeyboardButton("⌯ تيمو ⌯", url=f"https://t.me/tt_t_4"),
-                    InlineKeyboardButton("⌯ ليدو ⌯", url=f"https://t.me/J0KER7x"),
-                ],
-                [InlineKeyboardButton("⌯ تيتو⌯", url=f"https://t.me/XXX_xx_XXX0")],
+                    InlineKeyboardButton("⌯ H𝗢𝗦𝗦𝗔𝗠⌯", url=f"https://t.me/H_OS_S_AM"),
+             
                 [InlineKeyboardButton("⌯❓ طريقة التفعيل ⌯", callback_data="cbhowtouse")],
                 [InlineKeyboardButton("⌯  الاوامر بالعربي ⌯", callback_data="cbvamp")],                 
                 [
@@ -110,13 +109,13 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                [
-                InlineKeyboardButton("• تيمو •", url=f"https://t.me/tt_t_4"),
-                InlineKeyboardButton("• ليدو •", url=f"https://t.me/J0KER7x"),
+                InlineKeyboardButton("• H𝗢𝗦𝗦𝗔𝗠•", url=f"https://t.me/H_OS_S_AM"),
+              
             ],
-                [InlineKeyboardButton("• تيتو •", url=f"https://t.me/XXX_xx_XXX0"),],
+             
                 [       
                     InlineKeyboardButton(
-                        "⌯ 𝐒𝐄𝐋𝐕𝐀 𝐌𝐔𝐒𝐈𝐂 🎶 ⌯", url=f"https://t.me/SO_SELVA"
+                      "⌯ H𝗢𝗦𝗦𝗔𝗠 𝑀𝑈𝑆𝐼𝐶࿃ 🎶 ⌯", url=f"https://t.me/x3j_xj3"
                     ),
                 ],
                 [
@@ -125,7 +124,7 @@ async def alive(client: Client, message: Message):
         ]
     ) 
 
-    alive = f"**⌯ اهلا بك يا  {message.from_user.mention()}   \n ⌯ في سورس سيلفا ميوزك 🎵 الجمدان ❤️ \n ⌯ لو عايز تنصيب بوت ميوزك بأسعار حلوة  كلمنا  من هنا ⬇️ ** "
+    alive = f"**⌯ اهلا بك يا  {message.from_user.mention()}   \n ⌯في سورس حسام ميوزك 🎵 الجمدان ❤️ \n ⌯ لو عايز تنصيب بوت ميوزك بأسعار حلوة  كلمنا  من هنا ⬇️ ** "
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
@@ -138,18 +137,13 @@ async def alive(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/39e92dc8f5872cf97b34c.jpg",
-        caption=f"""**⌯ مطورين سورس سيلفا ميوزك 🎵**""",
+      caption=f"""⌯ مطور سورس حسام ميوزك 🎵""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𓆩 آݪــمــطور تيمو 𓆪", url=f"https://t.me/tt_t_4"),
+                InlineKeyboardButton("𓆩 آݪــمــطور حسام 𓆪", url=f"https://t.me/H_OS_S_AM"),
             ],
-            [
-                InlineKeyboardButton("𓆩 آݪــمــطور ليدو 𓆪", url=f"https://t.me/J0KER7x"),
-            ],
-            [
-                InlineKeyboardButton("𓆩 آݪــمــطور تيتو 𓆪", url=f"https://t.me/XXX_xx_XXX0"),
-            ],
+            
             [
                 InlineKeyboardButton("⌯ اضافه البوت اللي مجموعتك ⌯", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ]
@@ -166,13 +160,13 @@ async def start(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𓆩 آݪــمــطور تيمو 𓆪", url=f"https://t.me/tt_t_4"),
-                InlineKeyboardButton("𓆩 آݪــمــطور ليدو 𓆪", url=f"https://t.me/J0KER7x"),
+                InlineKeyboardButton("𓆩 آݪــمــطور حسام 𓆪", url=f"https://t.me/H_OS_S_AM"),
+               
             ],
-            [InlineKeyboardButton("𓆩 آݪــمــطور تيتو 𓆪", url=f"https://t.me/XXX_xx_XXX0"),],
+   
             [
                 InlineKeyboardButton(
-                    "⌯ 𝐒𝐄𝐋𝐕𝐀 𝐌𝐔𝐒𝐈𝐂 🎶 ⌯", url=f"https://t.me/SO_SELVA"
+                  "⌯ H𝗢𝗦𝗦𝗔𝗠 𝑀𝑈𝑆𝐼𝐶࿃ 🎶 ⌯", url=f"https://t.me/x3j_xj3"
                 ),
             ],
             [

@@ -58,7 +58,7 @@ async def play(c: Client, m: Message):
                 InlineKeyboardButton(text="⌯ قائمه تحكم ⌯", callback_data="cbmenu"),
                 InlineKeyboardButton(text="⌯ اغــلاق ⌯", callback_data="cls"),
                 ],
-              [InlineKeyboardButton("⌯ 𝐒𝐄𝐋𝐕𝐀 𝐌𝐔𝐒𝐈𝐂 🎶 ⌯", url=f"https://t.me/SO_SELVA"),
+              [InlineKeyboardButton("⌯ H𝗢𝗦𝗦𝗔𝗠 𝑀𝑈𝑆𝐼𝐶࿃ 🎶 ⌯", url=f"https://t.me/x3j_xj3"),
                 ],
               [InlineKeyboardButton("⌯ اضافه البوت اللي مجموعتك ⌯", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),              
             ]
@@ -275,7 +275,7 @@ async def stream(c: Client, m: Message):
                 InlineKeyboardButton(text="⌯ قائمه تحكم ⌯", callback_data="cbmenu"),
                 InlineKeyboardButton(text="⌯ اغــلاق ⌯", callback_data="cls"),
               ],
-              [InlineKeyboardButton("⌯ 𝐒𝐄𝐋𝐕𝐀 𝐌𝐔𝐒𝐈𝐂 🎶 ⌯", url=f"https://t.me/SO_SELVA"),
+              [InlineKeyboardButton("⌯ H𝗢𝗦𝗦𝗔𝗠 𝑀𝑈𝑆𝐼𝐶࿃ 🎶 ⌯", url=f"https://t.me/x3j_xj3"),
                 ],
               [InlineKeyboardButton("⌯ اضافه البوت اللي مجموعتك ⌯", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),               
             ]

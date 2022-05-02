@@ -17,7 +17,7 @@ from config import (
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""✨ **مرحبآ عزيزي↤「 [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) 」!**\n
-🤖 **[𝐒𝐄𝐋𝐕𝐀 𝐌𝐔𝐒𝐈𝐂 🎶](https://t.me/SO_SELVA) **
+🤖 **[H𝗢𝗦𝗦𝗔𝗠 𝑀𝑈𝑆𝐼𝐶࿃🎶](https://t.me/x3j_xj3) **
 **⌯ انا بوت  استطيع تشغيل الموسيقي والفيديو في محادثتك الصوتية**
 
 ⌯ تعلم طريقة تشغيلي واوامر التحكم بي عن طريق  » 📚 اوامر التشغيل !
@@ -30,15 +30,15 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "⌯ 𝐒𝐄𝐋𝐕𝐀 𝐌𝐔𝐒𝐈𝐂 🎶 ⌯",
-                        url=f"https://t.me/SO_SELVA",
+                        "⌯ H𝗢𝗦𝗦𝗔𝗠 𝑀𝑈𝑆𝐼𝐶࿃ 🎶 ⌯",
+                        url=f"https://t.me/x3j_xj3",
                     )
                 ],
                 [
-                    InlineKeyboardButton("⌯ تيمو ⌯", url=f"https://t.me/tt_t_4"),
-                    InlineKeyboardButton("⌯ ليدو ⌯", url=f"https://t.me/J0KER7x"),
+                    InlineKeyboardButton("⌯H𝗢𝗦𝗦𝗔𝗠࿃ ⌯", url=f"https://t.me/H_OS_S_AM"),
+    
                 ],
-                [InlineKeyboardButton("⌯ تيتو⌯", url=f"https://t.me/XXX_xx_XXX0")],
+          
                 [InlineKeyboardButton("⌯❓ طريقة التفعيل ⌯", callback_data="cbhowtouse")],
                 [InlineKeyboardButton("⌯  الاوامر بالعربي ⌯", callback_data="cbvamp")],                 
                 [
@@ -75,9 +75,9 @@ async def cbguides(_, query: CallbackQuery):
  5 ↤ في بعض الأحيان ، يمكن أن تساعدك إعادة تحميل البوت باستخدام الأمر «تحديث» او /reload في إصلاح بعض المشكلات
  📌 إذا لم ينضم البوت إلى المكالمة ، فتأكد من تشغيل المكالمة  بالفعل ، أو اكتب «غادر» /userbotleave ثم اكتب «انضم» او /userbotjoin مرة أخرى
 
- ⌯ إذا كانت لديك أسئلة  حول هذا البوت ، فيمكنك إخبارنا من هنا ↤ @tt_t_4
+ ⌯ إذا كانت لديك أسئلة  حول هذا البوت ، فيمكنك إخبارنا من هنا ↤ @H_OS_S_AM
 
-⌯ قناة سورس سيلفا ميوزك 🎵  @SO_SELVA
+⌯ قناه سورس حسام ميوزك 🎵  @x3j_xj3
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -92,7 +92,7 @@ async def cbcmds(_, query: CallbackQuery):
 
  **⇦ قم بالضغط علي الزر الذي تريده لمعرفه الاوامر  !**
 
-⌯ __قناة سورس سيلفا ميوزك 🎵  @SO_SELVA  __""",
+⌯ قناة سورس حسام ميوزك 🎵 @x3j_xj3  """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -158,7 +158,7 @@ async def cbadmin(_, query: CallbackQuery):
  » /alive   او «السورس» إظهار معلومات البوت  (في المجموعه) 
   
 ✦┅━╍━╍╍━━╍━━╍━┅✦
-⌯ قناة سورس سيلفا ميوزك 🎵  @SO_SELVA
+⌯ قناه سورس حسام ميوزك 🎵  @x3j_xj3
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbcmds")]]
@@ -179,8 +179,8 @@ async def cbsudo(_, query: CallbackQuery):
 » /leaveall»او «غادرالجميع - order userbot to leave from all group
 
 ✦┅━╍━╍╍━━╍━━╍━┅✦
- ⌯ قناة سورس سيلفا ميوزك 🎵  @SO_SELVA
-""",
+⌯ قناه سورس حسام ميوزك 🎵  @x3j_xj3
+__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙رجوع", callback_data="cbcmds")]]
         ),
@@ -253,7 +253,7 @@ async def cbbasic(_, query: CallbackQuery):
 ⌯ غادرالجميع  » » لمغادره الحساب المساعد لجميع جروبات .
 
 ✦┅━╍━╍╍━━╍━━╍━┅✦
-⌯ قناة سورس سيلفا ميوزك 🎵  @SO_SELVA__""",
+⌯ ⌯ قناة سورس حسام ميوزك 🎵  @x3j_xj3__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙رجوع", callback_data="cbcmds")]]
         ),
