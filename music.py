@@ -1,6 +1,4 @@
-# Copyright (C) 2021 By Amort Music-Project
-# Commit Start Date 20/10/2021
-# Finished On 28/10/2021
+
 
 import re
 import asyncio
@@ -50,15 +48,19 @@ async def ytdl(link):
         return 0, stderr.decode()
 
 
-@Client.on_message(command(["mplay", f"mplay@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["mplay","شغيل","شغيل اغنيه","play", f"mplay@{BOT_USERNAME}"]) & other_filters)
 async def play(c: Client, m: Message):
     replied = m.reply_to_message
     chat_id = m.chat.id
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="• القائمة", callback_data="cbmenu"),
-                InlineKeyboardButton(text="• إغلاق", callback_data="cls"),
+                InlineKeyboardButton(text="⌯ قائمه تحكم ⌯", callback_data="cbmenu"),
+                InlineKeyboardButton(text="⌯ اغــلاق ⌯", callback_data="cls"),
+                ],
+              [InlineKeyboardButton("⌯ H𝗢𝗦𝗦𝗔𝗠 𝑀𝑈𝑆𝐼𝐶࿃ 🎶 ⌯", url=f"https://t.me/x3j_xj3"),
+                ],
+              [InlineKeyboardButton("⌯ اضافه البوت اللي مجموعتك ⌯", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),              
             ]
         ]
     )
@@ -116,7 +118,7 @@ async def play(c: Client, m: Message):
 
     if replied:
         if replied.audio or replied.voice:
-            suhu = await replied.reply("📥 **جاري تنزيل الصوت...**")
+            suhu = await replied.reply("📥 **الحساب المساعد منضم بلفعل وجاري تنزيل الصوت...**")
             dl = await replied.download()
             link = replied.link
             if replied.audio:
@@ -207,7 +209,7 @@ async def play(c: Client, m: Message):
                                 )
                             except Exception as ep:
                                 await suhu.delete()
-                                await m.reply_text(f"خطاء: `{ep}`")
+                                await m.reply_text(f"خطاء قام احد مشرفي المجموعه بحظر الحساب المساعد برجاء رفع الحظر لكي اعمل : `{ep}`")
 
     else:
         if len(m.command) < 2:
@@ -258,20 +260,24 @@ async def play(c: Client, m: Message):
                             )
                         except Exception as ep:
                             await suhu.delete()
-                            await m.reply_text(f"خطاء: `{ep}`")
+                            await m.reply_text(f"خطاء قام احد مشرفي المجموعه بحظر الحساب المساعد برجاء رفع الحظر عنه لكي اعمل : `{ep}`")
 
 
 # stream is used for live streaming only
 
 
-@Client.on_message(command(["stream", f"stream@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["stream","play","شغيل","شغل","غل" f"stream@{BOT_USERNAME}"]) & other_filters)
 async def stream(c: Client, m: Message):
     chat_id = m.chat.id
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="• القائمة", callback_data="cbmenu"),
-                InlineKeyboardButton(text="• اغلاق", callback_data="cls"),
+                InlineKeyboardButton(text="⌯ قائمه تحكم ⌯", callback_data="cbmenu"),
+                InlineKeyboardButton(text="⌯ اغــلاق ⌯", callback_data="cls"),
+              ],
+              [InlineKeyboardButton("⌯ H𝗢𝗦𝗦𝗔𝗠 𝑀𝑈𝑆𝐼𝐶࿃ 🎶 ⌯", url=f"https://t.me/x3j_xj3"),
+                ],
+              [InlineKeyboardButton("⌯ اضافه البوت اللي مجموعتك ⌯", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),               
             ]
         ]
     )
@@ -375,4 +381,4 @@ async def stream(c: Client, m: Message):
                     )
                 except Exception as ep:
                     await suhu.delete()
-                    await m.reply_text(f"خطاء: `{ep}`")
+                    await m.reply_text(f"خطاء قام احد مشرفي المجموعه بحظر الحساب المساعد برجاء رفع الحظر لكي اعمل : `{ep}`")
